@@ -45,9 +45,14 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvDBContent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@android:color/holo_blue_light"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_blue_light" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </LinearLayout>
